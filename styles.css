@@ -1,29 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
-@media screen and (max-width: 768px) {
-    .container {
-        padding: 10px;
-        width: 50%;
-    }
-
-    .container1,
-    .subtitle2,
-    .subtitle1 {
-        margin-left: 0;
-        width: 50%;
-    }
-
-    #sub1 {
-        margin-left: 0;
-    }
-
-    #sub,
-    #txt {
-        font-size: smaller;
-    }
-    img{
-        width: 75%;
-    }
-}
 html *{
     font-family: "Outfit";
     color: rgb(87, 86, 84);
@@ -32,6 +7,9 @@ body{
     background-color: rgb(243, 229, 216);
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 ol li::marker{
     color: rgb(131, 70, 49) !important;
@@ -53,7 +31,9 @@ li span {
     padding: 20px;
     margin: 50px auto;
 }
-
+.content{
+    padding: 20px;
+}
 img{
     position: relative;
     height: auto;
@@ -103,4 +83,28 @@ img{
     font-weight: bold;
     display: inline-block;
     margin-left: 300px;
+}
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+        width: 100vw;
+    }
+    .container1,
+    .subtitle2,
+    .subtitle1 {
+        margin-left: 0;
+        width: 50%;
+    }
+
+    #sub1 {
+        margin-left: 0;
+    }
+
+    #sub,
+    #txt {
+        font-size: smaller;
+    }
+    img{
+        width: 70%;
+    }
 }
