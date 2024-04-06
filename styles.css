@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+        width: 50%;
+    }
+
+    .container1,
+    .subtitle2,
+    .subtitle1 {
+        margin-left: 0;
+        width: 50%;
+    }
+
+    #sub1 {
+        margin-left: 0;
+    }
+
+    #sub,
+    #txt {
+        font-size: smaller;
+    }
+    img{
+        width: 75%;
+    }
+}
+html *{
+    font-family: "Outfit";
+    color: rgb(87, 86, 84);
+}
+body{
+    background-color: rgb(243, 229, 216);
+    margin: 0;
+    padding: 0;
+}
+ol li::marker{
+    color: rgb(131, 70, 49) !important;
+    margin-bottom: 10px;
+}
+li{
+    margin: 10px;
+}
+li span {
+    position: relative;
+    left: 10px;
+}
+.container{
+    position: relative;
+    bottom: auto;
+    background-color: white;
+    max-width: 600px;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 50px auto;
+}
+
+img{
+    position: relative;
+    height: auto;
+    max-width: 530px;
+    border-radius: 10px;
+    margin: 30px;
+}
+.container1{
+    background-color: rgb(255, 247, 252);
+    border-radius: 3%;
+    padding: 5px;
+    
+}
+.title{
+    font-family: "Young Serif" !important;
+    color: black;
+}
+.subtitle2{
+    color: rgb(118, 43, 73);
+    margin-left: 10px;
+}
+#sub{
+    font-weight: bold;
+}
+#txt{
+    font-weight: normal;
+}
+.subtitle1{
+    font-family: "Young Serif";
+    color: rgb(131, 70, 49);
+    font-weight: 500;
+}
+#txt1{
+    font-weight: normal;
+    font-size: small;
+}
+#txt2{
+    margin-bottom: 20px;
+}
+#txt3{
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 50px;
+}
+#sub1{
+    color: rgb(131, 70, 49);
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 300px;
+}
